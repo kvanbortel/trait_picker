@@ -42,7 +42,9 @@ def pick_traits(num):
 
 def main():
     try:
+        # Success loop
         while True:
+            # Failure loop
             while True:
                 try:
                     num = int(input(Fore.GREEN + "Enter number of results: "))
